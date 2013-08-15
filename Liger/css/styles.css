@@ -1,0 +1,39 @@
+body {
+	background-color: #F3EBDA;
+}
+
+h1 {
+	background-color: #6B7D69;
+	color: white;
+}
+
+h2 {
+	background-color: #AE917D;
+	width: 300px;		
+}
+
+#list {
+	background-color: #CCAA93;
+	width: 300px;
+}
+
+#one a:hover,#two a:hover,#three a:hover,#four a:hover,#five a:hover,#six a:hover,#seven a:hover {
+	color: rgb(255,244,181);
+}
+
+#definitions {
+	background-color: hsl(24, 23%, 59%);
+	
+}
+
+#scidef {
+	background-color: #CCAA93;	
+}
+
+cite {
+	background-color: rgba(255,244,181,0.5);
+}
+
+dt{
+	font-weight: bold;
+}
