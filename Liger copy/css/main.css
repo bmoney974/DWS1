@@ -1,0 +1,50 @@
+h1 {
+	font-family: 'Marcellus SC', serif;
+	font-weight:bold;
+	text-shadow: 2px 1px #FFF4B5;
+	letter-spacing:2px;
+	font-size:150%;
+	
+	
+}
+
+h2 {
+	font-family: 'Cabin Condensed', sans-serif;
+	text-shadow: 2px 1px #FFF4B5;
+	text-transform:uppercase;
+	letter-spacing:2px
+}
+
+h3 {
+	font-family: 'Cabin Condensed', sans-serif;
+	text-shadow: 2px 1px #FFF4B5;
+	text-transform:uppercase;
+	letter-spacing:2px
+	
+}
+
+a:link {
+	color:#2B7D3D;
+}
+
+a:visited {
+	color:#CCB418;
+
+}
+
+a:active {
+	color:#CC447C;
+}
+
+a:hover {
+	color: rgb(255,244,181);
+}
+
+p {
+	line-height:150%;
+	text-indent:50px;
+}
+
+dd {
+	font-style:oblique;
+}
