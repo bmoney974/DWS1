@@ -1,0 +1,62 @@
+body {
+	background-color: #C9C3B5;
+}
+
+h1 {
+
+	background-color: #6B7D69;
+	color: white;
+	padding:10px;
+	
+}
+
+h2 {
+	background-color: #AE917D;
+	text-align:left;
+	font-size:1.5em;
+	padding:10px
+	
+}
+
+h3{
+		font-size: 1.25em;
+		padding:10px;
+}
+
+#list {
+	background-color: #CCAA93;
+	
+}
+
+#one a:hover,#two a:hover,#three a:hover,#four a:hover,#five a:hover,#six a:hover,#seven a:hover {
+	color: rgb(255,244,181);
+}
+
+#definitions {
+	background-color: hsl(24, 23%, 59%);
+	padding: 15px;
+	
+	
+	
+}
+
+#scidef {
+	background-color: #CCAA93;	
+
+}
+
+cite {
+	background-color: rgba(255,244,181,0.5);
+}
+
+dt{
+	font-weight: bold;
+	padding: 15px;
+}
+
+dd{
+	padding: 10px;
+}
+dl{
+
+}
