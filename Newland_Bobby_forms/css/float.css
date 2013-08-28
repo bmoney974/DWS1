@@ -1,0 +1,32 @@
+nav {
+	float:right;
+	width:29.2%;
+	max-width:250px;
+	min-width: 105px;
+	margin:5px;
+	font-size:90%;
+	border-radius:10px;
+
+	
+	}
+	
+#scidef {
+	float:left;
+	width: 68%;
+	overflow:hidden;
+	margin:5px;
+	border-radius: 10px;
+
+	}
+	
+section {
+	clear:both;
+	margin:10px;
+	border: groove 3px;
+	border-color:#6B7D69;
+	padding:10px;
+	border-radius:10px;
+	box-shadow: 10px 10px 5px #888888;
+	
+	}
+	

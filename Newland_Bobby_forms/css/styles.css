@@ -1,0 +1,155 @@
+
+body {
+	/*background*/
+	
+	width:100%;
+	background-image: url("../images/sand-blossom.gif");
+	padding:0px;	
+	}
+
+header {
+	
+	background-color: #6B7D69;
+	color: white;
+	padding:10px;
+	height:90px;	
+	}
+
+h2 {
+	background-color: #AE917D;
+	text-align:left;
+	font-size:1.5em;
+	padding:10px
+	
+	}
+
+h3{
+		font-size: 1.25em;
+		padding:10px;
+	}
+
+nav {
+	background-color: #CCAA93;
+	
+	}
+
+#one a:hover,#two a:hover,#three a:hover,#four a:hover,#five a:hover,#six a:hover,#seven a:hover {
+	color: rgb(255,244,181);
+	}
+
+#definitions {
+	background-color: hsl(24, 23%, 59%);
+	padding: 15px;	
+	}
+
+#scidef {
+	background-color: #CCAA93;	
+
+	}
+
+cite {
+	background-color: rgba(255,244,181,0.5);
+	}
+
+dt{
+	font-weight: bold;
+	padding: 15px;
+	}
+
+dd{
+	padding: 10px;
+	}
+dl{
+
+	}
+
+tr {
+	text-align:left;
+	width:200px;
+	margin:0px;
+	padding:10px;
+	
+	}
+	
+#tabe h3 {
+	background-color: #AE917D;
+	text-align:center;
+	padding-right: 10px;
+	font-size:100%;
+	}
+	
+#tabe{
+	background-color:#CCAA93;
+	float:right;
+	width:29.2%;
+	max-width:250px;
+	min-width: 105px;
+	margin:5px;
+	border-radius:10px;
+	}
+	
+td,th{
+	padding:10px;
+	border-bottom: 1px solid #ffffff;
+	border-spacing:10px; 
+	letter-spacing:3px
+	}
+tr:hover{
+	background-color:#c3ffff;
+	}
+	
+#form-wrapper{
+	background-color:#CCAA93;
+	float:right;
+	width:26.2%;
+	max-width:250px;
+	min-width: 200px;
+	margin-top: 20px auto 20px;
+	border-radius:10px;
+
+	
+	}
+
+legend{
+	font-size: 14px;
+
+	}
+
+fieldset{
+	text-align: center;
+	}
+
+.title{
+	float:left;
+	
+	
+
+	}
+
+label {
+	float:left;
+	text-align: left;
+	}
+
+#radio-title, #radio-list {
+	width: 98%;
+	float:left;
+	text-align:left;
+	}
+
+input{
+	float:left;
+	}
+	
+input:hover {
+	background-color: blue;
+	color:white;
+	border: 2px solid yellow;
+	}
+
+input:focus {
+	background-color: blue;
+	color:white;
+	border: 2px solid yellow;
+	}
+	
