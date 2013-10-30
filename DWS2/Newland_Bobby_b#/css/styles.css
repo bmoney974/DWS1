@@ -86,7 +86,7 @@ input:enabled { /* pseudo element */
 
 p :first-child{ /* pseudo class */
 	color:yellow;
-	!important;
+	
 	}	
 a[href$=".com"]:hover{ /* attribute */
 	background:blue;
