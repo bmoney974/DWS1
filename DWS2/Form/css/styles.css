@@ -1,0 +1,115 @@
+#container {
+	width:66%;
+	margin:0px auto;
+	border:2px orange solid;
+	background:white;
+	padding:1em;
+	margin-top:60px;
+	overflow:hidden;
+	}
+	
+body {
+	background:green;
+	}
+	
+hgroup > h1 {
+	text-align:center;
+	}
+	
+label {
+	float:left;
+	clear:left;
+	}
+input {
+	float:left;
+	clear:left;
+	box-shadow: 3px 3px 3px #00000;
+	}
+	
+#area {
+	float:left;
+	clear:left;
+	}
+	
+#half-1, #half-2 {
+	float:left;
+	
+	}
+
+#half-1 {
+	margin-top:40px;
+	margin-left:1em;
+	}	
+#half-2{
+	position:relative;
+	left:17.708333%;	
+	margin-top:20px;
+	}
+#can {
+	float:left;
+	clear:left;
+	}
+	
+legend {
+	box-shadow: 8px 8px 8px #00000;
+	}
+	
+#range{
+	float:left;
+	clear:left;
+	font-size:3em;
+	color:blue;
+	}
+	
+	/* #Media Queries
+================================================== */
+
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+
+			#half-2{
+	position:relative;
+	left:5.708333%;	
+	margin-top:20px;
+	}
+			
+			
+					
+					
+			}
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+							
+	#half-2{
+	position:relative;
+	left:2.708333%;	
+	margin-top:20px;
+	}
+	
+	#half-1 {
+	margin-top:40px;
+	position:relative;
+	left:15%;						
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+	
+			
+	#half-2{
+	position:relative;
+		
+	margin-top:20px;
+	}
+	#area {
+		width:60%;
+		}
+
+	}

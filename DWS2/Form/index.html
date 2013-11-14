@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang ="en">
+	
+	<head>
+		<meta charset = "utf-8" />
+		<title>Give Me Your Information</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	  <link rel="stylesheet" href="css/foundation.css">
+	  
+	  <script src="js/jquery.js"></script>
+
+<!-- Simple change -->
+<script src="js-webshim/minified/extras/modernizr-custom.js"></script> 
+
+<!-- 'Use your own' variant -->
+<script src="js/Modernizr-custom.js"></script> 
+
+<script src="js-webshim/minified/polyfiller.js"></script> 
+
+<script> 
+    // load and implement all unsupported features 
+    $.webshims.polyfill();
+
+    // or only load a specific feature
+    //$.webshims.polyfill('geolocation json-storage');
+</script>
+
+<script> 
+    $(function(){
+        // work with JSON and localStorage 
+        var userData = JSON.parse(localStorage.getItem('userData')) || {visits: 0};
+        $('#visits').html(userData.visits);
+        // ...
+    });
+</script>
+
+
+	</head>
+	
+<body>
+<script>
+	function showValue(newValue){
+		document.getElementById("range").innerHTML=newValue;
+		}
+</script>
+	<div id="container">
+	<form id="challenge" method="post">
+		<hgroup>
+			<h1>Give Me Your Information </h1>
+			<hr />
+			<h3>Fill out the form and we will spy on you and steal your identity </h3>
+			<br /> 
+		</hgroup>
+		<fieldset>
+			<legend> Fill out the form</legend>
+		<div id="half-1">	
+			<div>
+				<label for="name"> Full Name:</label>
+				<input id="name" name="name" type="text" placeholder="John Smith" required aria-required="true"><br />
+				<label for="address"> Address:</label>
+				<input id="address" name="address" type="text" placeholder="123 Any Street AVE" required aria-required="true"><br />
+				<label for="City"> City:</label>
+				<input id="city" name="city" type="text" placeholder="Any Town" required aria-required="true"><br />	
+				<label for="State"> State:</label>
+				<input id="state" name="state" type="text" placeholder="NY" required aria-required="true"><br />	
+				<label for="Zipcode"> Zipcode:</label>
+				<input id="zipcode" name="zipcode" type="number" placeholder="12345" required aria-required="true" min="5" max="10"><br />
+				<label for="phone">Phone Number:</label>
+				 <input id="phone" type="tel" name="phone" placeholder="555-555-5555">	
+				 <label for="male">Male</label>
+				 <input type="radio" name="male" value="male">
+				 <label for="female">Female</label>
+				<input type="radio" name="female" value="female">				
+			</div>
+				<br />
+			<div>
+				<label for="birthday"> Birthday:</label>
+				<input id="birthday" name="birthday" type="date" required aria-required="true" ><br />
+				<label for="age-limit">I am 18 years or older</label>
+				<input  name="age-limit" value="age-limit" type="checkbox">
+				<label for="cool" >On a Scale of 1 to 10 How Cool are you?</label>
+				<input type="range" name="cool" min="1" max="10" onchange="showValue(this.value)"><span id ="range">5</span>
+				
+			</div>
+		</div>
+				<br />
+		<div id="half-2">
+			<div>
+				<label for="job">Place of employment: </label>
+				<input id="job" name="job" type="text"><br />
+				<label for="start-date">Start Date:</label>
+				<input id="start-date" name="start-date" type="date" ><br />
+				<label for="length" >How long have you worked there:</label>
+				<input id="length" name="length" type="month">
+			</div>
+			<br />	
+			<div>
+				<label for="color">Whats your favorite color:</label>				
+				<input id="color" type="color" name="color">
+				<div id="area">
+				<p>Tell us why you like this color:</p>
+				<textarea  rows="8" cols="30" maxlength="30" placeholder="Why I like this color">				
+				</textarea>	
+				</div>
+				<br />
+				<label for="can-we">Can we sell your information</label>
+				<select id="can" name="can-we">
+  					<option value="sure">Sure</option>
+ 				 	<option value="yes">Yes</option>
+  					<option value="why-not">Why Not</option>
+  					<option value="no">No</option>
+				</select>											
+			</div><!--half-2-->
+		</div>	
+		
+		
+		</fieldset>
+
+	</form>
+</div><!--container-->
+</body>
