@@ -1,0 +1,213 @@
+body {
+	background: #222222;
+
+	}
+
+#container {
+	width: 70%;
+	border: 1px black solid;
+	margin:0px auto;
+	height:auto;
+	border-radius:5px;
+	overflow:hidden;
+	background:white;
+
+	
+	}
+	
+hr {
+	margin-left:5em;
+	margin-right: 5em;
+	}
+	
+header {
+	text-align: center;
+	background: #373737;
+	color: #ffffff;
+	height:90px;
+	position:relative;
+	top:-30px;
+	}
+
+header h1 {
+	padding-top:20px;
+	}
+	
+#photos{
+	margin-left: 40px;
+    margin-top: 30px;
+	-webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    -o-perspective: 500px;
+    perspective: 500px;
+}
+
+#photos #pic1 {
+	-webkit-transition: all .5s ease;	
+	-moz-transition: all .5s ease;	
+	-o-transition: all .5s ease;	
+	transition: all .5s ease;
+}
+
+
+
+#photos #pic1:hover {
+	
+	-webkit-transform: scale(1.5);	
+	-moz-transform: scale(1.5);	
+	-ms-transform: scale(1.5);	
+	-o-transform: scale(1.5);	
+	transform: scale(1.5);
+	-moz-box-shadow: 3px 3px 5px #000;
+	-webkit-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+	-webkit-backface-visibility: hidden;	
+	}
+	
+#photos #pic2 {
+	-webkit-transition: all .5s ease;	
+	-moz-transition: all .5s ease;	
+	-o-transition: all .5s ease;	
+	transition: all .5s ease;
+	}
+
+#photos #pic2:hover{
+	-webkit-transform: skew(10deg, 2deg);	
+	-moz-transform: skew(10deg, 2deg);	
+	-ms-transform: skew(10deg, 2deg);	
+	-o-transform: skew(10deg, 2deg);	
+	transform: skew(10deg, 2deg);
+	-moz-box-shadow: 3px 3px 5px #000;
+	-webkit-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+	-webkit-backface-visibility: hidden;			
+	}
+	
+#photos #pic3 {
+	-webkit-transition: all 2s ease;	
+	-moz-transition: all 2s ease;	
+	-o-transition: all 2s ease;	
+	transition: all 2s ease;
+	}
+
+#photos #pic3:hover{
+	-webkit-transform: rotate(360deg);	
+	-moz-transform:rotate(360deg);	
+	-ms-transform:rotate(360deg);	
+	-o-transform:rotate(360deg);	
+	transform: rotate(360deg);
+	-moz-box-shadow: 3px 3px 5px #000;
+	-webkit-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+	-webkit-backface-visibility: hidden;			
+	}
+	
+#photos #pic4 {
+	-webkit-transition: all .5s ease;	
+	-moz-transition: all .5s ease;	
+	-o-transition: all .5s ease;	
+	transition: all .5s ease;
+	}
+
+#photos #pic4:hover{
+	-webkit-transform: translate(40%, 0px);	
+	-moz-transform:ranslate(40%, 0px);	
+	-ms-transform:ranslate(40%, 0px);	
+	-o-transform:ranslate(40%, 0px);	
+	transform: ranslate(40%, 0px);
+	-moz-box-shadow: 3px 3px 5px #000;
+	-webkit-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+	-webkit-backface-visibility: hidden;			
+	}
+	
+#photos #pic5 {
+	-webkit-transition: all .5s ease;	
+	-moz-transition: all .5s ease;	
+	-o-transition: all .5s ease;	
+	transition: all .5s ease;
+}
+
+
+
+#photos #pic5:hover {
+	
+	-webkit-transform: scale(1.5);	
+	-moz-transform: scale(1.5);	
+	-ms-transform: scale(1.5);	
+	-o-transform: scale(1.5);	
+	transform: scale(1.5);
+	-moz-box-shadow: 3px 3px 5px #000;
+	-webkit-box-shadow: 3px 3px 5px #000;
+	box-shadow: 3px 3px 5px #000;
+	-webkit-backface-visibility: hidden;	
+	}
+
+	
+			
+
+.art {
+	float:left;	
+	padding:20px;
+	}
+	
+.name {
+	position:relative;
+	bottom:60px;
+	width:250px;
+	height:100%;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in;
+	-moz-transition: opacity 1s ease-in;
+	-o-transition: opacity 1s ease-in;
+	transition: opacity 1s ease-in;
+	}
+	
+.name p {
+	margin:10px;
+	padding: 5px 0;
+	background-color:rgb(168,88,163);
+	color:white;
+	text-align:center;
+	}
+	
+.name:hover {
+	opacity:8;
+	}
+	
+#pic1,#pic2,#pic3,#pic4,#pic5,#pic6 {
+	width:15em;
+	height:auto;
+	}
+	
+	/*================================================== */
+
+
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		.art{
+			padding:0px;
+			}
+			
+		}
+
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+							
+						
+		}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+			#container{
+			min-width:325px;
+			}
+			
+
+
+	}
